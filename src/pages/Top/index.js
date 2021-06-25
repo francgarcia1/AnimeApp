@@ -7,7 +7,7 @@ const Top = () => {
 
   return (
     <>
-      <BannerTop />
+      <BannerTop title={"Top Animes"} subTitle={"Best 20 Animes of all time"} />
       <CardList list={data} />
     </>
   );

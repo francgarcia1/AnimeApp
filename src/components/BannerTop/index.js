@@ -5,11 +5,11 @@ import {
   BannerTopImg,
   BannerTopSubTittle,
 } from "./BannerTopElements";
-const BannerTop = () => {
+const BannerTop = ({ title, subTitle }) => {
   return (
     <BannerTopContainer>
-      <BannerTopTittle>Top Anime</BannerTopTittle>
-      <BannerTopSubTittle>Mejores 20 Animes de la historia</BannerTopSubTittle>
+      <BannerTopTittle>{title}</BannerTopTittle>
+      <BannerTopSubTittle>{subTitle}</BannerTopSubTittle>
       <BannerTopImg />
     </BannerTopContainer>
   );

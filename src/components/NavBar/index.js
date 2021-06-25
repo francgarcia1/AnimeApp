@@ -13,7 +13,7 @@ const Navbar = () => {
       <LinkLogo to="/">Circles</LinkLogo>
       <LinksContainer>
         <NavLink to="/TopAnimes">Top Animes</NavLink>
-        <NavLink to="/Favorites">Liked</NavLink>
+        <NavLink to="/Favorites">Favorites</NavLink>
         <InputSearch />
       </LinksContainer>
     </NavContainer>
