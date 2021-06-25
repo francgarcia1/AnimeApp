@@ -1,4 +1,4 @@
-able of contents
+Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -20,3 +20,5 @@ To run this project, install it locally using npm:
 $ npm start
 When the proyect starts this will be the first image shown 
 ![Screenshot](imagen_2021-06-24_232445.png)
+Here is an example of how the favorites section looks with items 
+![Screenshot](imagen_2021-06-24_234937.png)
